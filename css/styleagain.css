@@ -1,0 +1,100 @@
+body { 
+    font-family: 'Nunito', sans-serif; 
+    background-image: url('../images/backgroundblue.jpg');
+} 
+
+header { 
+    background-color: #FFFFFF;
+}  
+
+nav ul { 
+    text-align: center;
+}
+
+.container{ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+img { 
+    height: auto;
+    max-width: 300%; 
+}
+
+a { 
+    display: block;
+    background-color: #FFFFFF;
+} 
+
+.selfie { 
+    max-width: 100%;
+}  */
+
+/*Changing the navigation bar*/
+nav li { 
+    display: inline-block;   
+    padding: 5px; 
+    width: 20%;  
+    margin: auto; 
+    font-weight: lighter;
+}  
+
+/*Changing the inside of bars*/
+nav a {
+    text-decoration: none;
+    color: #3B4948;
+    /* font-family: "Arial Narrow", sans-serif;  */
+    margin: 2px; 
+    font-size: 20px;
+}
+
+.active a{   
+    text-decoration: underline;
+    /* font-family: "Arial Narrow", sans-serif;   */
+    margin: 2px; 
+    font-weight: bold;
+    color: #2D5D3B;
+}  
+
+.skip{  
+    /* font-family: "Arial Narrow", sans-serif;    */
+    color: #3B4948; 
+    text-decoration: none;
+} 
+
+h1 { 
+    /* font-family: "PT Sans", Arial, Helvetica, sans-serif;  */
+    font-size: 44px; 
+    text-align: center;  
+    background-color: #FFFFFF; 
+}  
+
+
+/* footer { 
+    background-color: #3B4948;  
+    color: #FFFFFF; 
+    font-family: "Arial Narrow", sans-serif;   
+}  */
+
+
+/* p { 
+    font-family: "PT Sans", Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    text-align: left;  
+} */
+
+
+/* img { 
+    height: auto; 
+    width: 200px; 
+    border: 1px solid #3B4948;
+    margin: 5px;
+    padding: 3px;
+    justify-items: center;  
+    border-radius: 10px;
+} */
+
+/* img:hover:nth-child(2n){  
+    border: 5px solid #2D5D3B;
+} */

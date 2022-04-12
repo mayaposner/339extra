@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="https://kit.fontawesome.com/2abbe230cf.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">   
+    <script src="extra.js" defer></script>
+    <title>Travel Photo Journal</title>  
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GEJQKXJYD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4GEJQKXJYD');
+    </script>
+</head>
+
+<body>   
+    <a class = "skip" href="#main">Skip to Main Content</a>
+    <header>
+        <nav>
+            <ul class = nav_links>
+                <li class = 'active' ><a href = "index.html">About Me</a></li>
+                <li ><a href = "americas.html">Americas   </a></li>
+                <li><a href = "europe.html">Europe</a></li>
+                <li><a  href = "africa.html">Africa</a></li>
+            </ul>
+        </nav>  
+    </header> 
+
+    <main id = "main"> 
+        <h1>WELCOME</h1> 
+        <div class = container>
+            <div class = opening >
+                <img class = 'explorepic' src = 'images/indexexplore.jpg' alt = 'Explore wording on Sunset'/>   
+            </div>
+            <p>Hi, I'm Maya! Welcome to my travel journal.  One of my favorite activities is traveling and visiting other parts of the world.  
+                I am so fortunate to have been table to travel both near and far. I hope you enjoy!
+            </p> 
+            <div class = 'underpics'>
+                <img class = 'selfie' src = 'images/picself.jpeg' alt = 'picture of me on a Kenyan safari'/> 
+                <img class = 'sunsetflight' src = 'images/airplane.jpg' alt = 'airplane window at sunset' width = '200'/>
+            </div> 
+                
+            <div></div>
+
+            <p>My journal is divided by areas of the world. You can see pictures of sites, restaurants, and nature from Europe, various places in North and Central America, and Africa. 
+
+            <div></div>
+            
+            <p> I want to travel to even more places. Next on my travel buck list is Italy and Morocco. Stay tuned!</p> 
+            
+            <p> Here is a preview of my photo journal</p> 
+
+            <div class = extra> 
+                 <section aria-label = "Preview Photos">   
+                     <div class = "carousel" data-carousel> 
+                         <button class = 'carousel-button previous' data-carousel-button = 'prev'>&#8592;</button> 
+                         <button class = 'carousel-button next' data-carousel-button = 'next'>&#8594;</button>
+                            <ul data-slides> 
+                                <li class = 'slide' data-active> 
+                                    <img src = 'images/lake.jpg' alt = 'View from Path'>
+                                </li> 
+                                <li class = 'slide'> 
+                                <img src = 'images/view.jpg' alt = 'View from Apartment'>
+                            </li> 
+                            <li class = 'slide'> 
+                                <img src = 'images/arizonaview.jpg' alt = 'View in Arizona'>
+                            </li> 
+                            <li class = 'slide'> 
+                                <img src = 'images/eilatsunset.jpg' alt = 'Tubing View'>
+                            </li>
+                            </ul> 
+                    </div> 
+                
+                </section>
+                
+            </div>
+            
+        </div> 
+
+
+    </main> 
+    <footer>
+        <p> Maya Posner &copy; 2022</p> 
+        <i class="fa-solid fa-plane-departure"></i>  
+        <form action="https://formspree.io/f/xvolqakk" method="POST"> 
+            <label for = 'firstname' class = "first_name_area"> Your first name:  </label>  
+            <input id = 'firstname' type = 'text' name = 'name' placeholder="First Name">  
+            
+            <label for ='lastname' class = "last_name_area"> Your last name:  </label>  
+            <input id = 'lastname' type = 'text' name = 'name' placeholder="Last Name"> 
+
+            <label for = 'prefname' class = "pref_name_area"> Your preferred name:  </label>  
+            <input id = 'prefname' type = 'text' name = 'name' placeholder="Preferred Name"> 
+
+            <label for = 'email' class = "email_area"> Your email: </label>  
+            <input id = 'email' type="email" name="email" placeholder="Email">    
+
+            <label for = 'dest' class = "destination_area"> Your favorite travel destination: </label>  
+            <textarea id = 'dest' name="favorite destination" placeholder= "Favorite Vacation Destination"></textarea>  
+
+
+            <button class = "send" type="submit">Send</button>
+        </form> 
+    </footer>
+</body>
+</html>
+
+<!-- for later: FOR LARGER VIEW, USE Min height for screeen of like 80 vh  --> 
+<!-- change where background image is --> 
+<!-- break up pictures and text--> 
+<!-- extra--> 
